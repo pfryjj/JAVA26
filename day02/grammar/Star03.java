@@ -17,7 +17,5 @@ public class Star03 {
             }
             System.out.println();
         }
-        
-        sc.close();
     }
 }
