@@ -19,7 +19,5 @@ public class Star05 {
             }
             System.out.println();
         }
-        
-        sc.close();
     }
 }
