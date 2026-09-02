@@ -13,7 +13,6 @@ public class Star02 {
                 System.out.print("*");
             }
             System.out.println();
-        }
-        
+        }   
     }
 }
