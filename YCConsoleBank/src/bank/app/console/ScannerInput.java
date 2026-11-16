@@ -14,7 +14,14 @@ final public class ScannerInput {
 	public int readInt(String message) {
 		System.out.print(message);
 		String inStr = scanner.nextLine();
-		return Integer.parseInt(inStr);
+		try {
+			return Integer.parseInt(inStr);
+		}
+		catch(NumberFormatException e){
+			System.out.print("숫자로 입력하세요");
+			return -1;
+		}
+		//return Integer.parseInt(inStr);
 	}
 	
 	public boolean readYesNo(String message) {
